@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="/css/form.css">
+    <script src="https://vk.com/js/api/openapi.js?162" type="text/javascript"></script>
+
+    <title>Vk form</title>
+</head>
+
+<body>
+    <form id="seachVKform" name="seachVKform">
+        <label for="day">День</label><br/>
+        <input type="text" name="day">
+        <span id="err_day"></span>
+        <br>
+        <label for="month">Месяц</label><br/>
+        <input type="text" name="month">
+        <span id="err_mont"></span>
+        <br>
+        <label for="year">Год</label><br/>
+        <input type="text" name="year">
+        <span id="err_year"></span>
+        <br>
+        <button type="submit" value="Поиск" name="seacData">Поиск</button>
+    </form>
+    <div id="data">
+        <h3 id="resText"></h3>
+        <div id="results" class="movileres">
+            
+        </div>
+    </div>
+
+    <template id="usersInfo">
+        <div class="usersContainer">
+            <div class="user_avatar_block">
+                <img id="userAvatar" 
+                data=" " 
+                src=""></div>
+            <div class="text_info" id="text_mobil">
+                <span class="FIO">Имя фамилия отечество</span>
+                <a href="#link" class="profile_link" target="_blank">Link</a>
+            </div>
+        </div>
+    </template>
+
+    <script src="/js/form.js"></script>
+</body>
+
+</html>
+
