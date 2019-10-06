@@ -1,4 +1,4 @@
-let VKform = document.querySelector('#seachVKform');
+let vkForm = document.querySelector('#myform');
 
 let resultatsText = document.querySelector('#resText');
 //
@@ -6,12 +6,11 @@ let resultatsText = document.querySelector('#resText');
 //Подключение media
 let style_script = document.querySelector('link');
 
-
 function changeMegia(x) {
     if (x.matches) {
-        style_script.href = "/css/media.css"
+        style_script.href = "./css/media.css";
     } else {
-        style_script.href = "/css/form.css"
+        style_script.href = "./css/form.css";
     }
 }
 
@@ -60,7 +59,7 @@ function Container(userData) {
 
     let userAvatar = clone.querySelector('#userAvatar');
 
-    userAvatar.src = "/images/men.gif";
+    userAvatar.src = "./images/men.gif";
     userAvatar.setAttribute('data', `${userData.photo}`)
 
     userLink.href = "https://vk.com/id" + userData.id;
@@ -161,4 +160,4 @@ function getData(event) {
     };
 }
 
-VKform.addEventListener('submit', getData)
+vkForm.addEventListener('submit', getData);
