@@ -14,7 +14,7 @@ function changeMegia(x) {
     }
 }
 
-let x = window.matchMedia("(max-width: 600px)")
+let x = window.matchMedia("(max-width: 600px)");
 changeMegia(x)
 x.addListener(changeMegia)
 //
@@ -102,7 +102,9 @@ function getData(event) {
     let birth_day = day; //День рождения
     let birth_month = month; //месяц рождения.
     let birth_year = year; //год рождени
-    let token = "0ffa9401d680c1c9af2ab76840e4fd8060b3916ac7313b4cb766f85ae35f9347f80856200bb31234ec739";
+    
+    
+    let token = "2de782fa23bcdf073ad9ae5cc6ecf702d22a71b4e1e0ab50c42d7c3683aed22c174b4a9031fb5eaf6b04d";
 
     let errorText1 = document.querySelector('#err_day');
     let errorText2 = document.querySelector('#err_year');
