@@ -102,7 +102,7 @@ function getData(event) {
     let birth_day = day; //День рождения
     let birth_month = month; //месяц рождения.
     let birth_year = year; //год рождени
-    let token = "8b551129468a26a4a39588f1dd46c82b34ca07e1f00cbfb47ce33bb5eef99da551b4b6803699d43e50aea";
+    let token = "0ffa9401d680c1c9af2ab76840e4fd8060b3916ac7313b4cb766f85ae35f9347f80856200bb31234ec739";
 
     let errorText1 = document.querySelector('#err_day');
     let errorText2 = document.querySelector('#err_year');
