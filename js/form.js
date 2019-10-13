@@ -104,7 +104,7 @@ function getData(event) {
     let birth_year = year; //год рождени
     
     
-    let token = "2de782fa23bcdf073ad9ae5cc6ecf702d22a71b4e1e0ab50c42d7c3683aed22c174b4a9031fb5eaf6b04d";
+    let token = "8960b32e897cf0a4a2716887af13558995b51bc4c75615f90c0c95ad884229ac4d4d1e58e8f24c4709f40";
 
     let errorText1 = document.querySelector('#err_day');
     let errorText2 = document.querySelector('#err_year');
